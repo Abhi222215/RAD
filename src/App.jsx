@@ -35,6 +35,8 @@ const App = ({ hasClerkAuth = false }) => {
       <Footer />
     </>
   );
+
 }
+//edit app
 
 export default App
