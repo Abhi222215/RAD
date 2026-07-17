@@ -42,5 +42,5 @@ const Footer = () => {
         </footer>
     )
 }
-
+//haka
 export default Footer
