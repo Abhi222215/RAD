@@ -8,7 +8,7 @@ import './index.css'
 const clerkPublishableKey = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
 const clerkAppearance = {
   variables: {
-    colorPrimary: '#F84565',
+    colorPrimary: '#f8234a',
     colorBackground: '#08080a',
     colorInputBackground: '#111114',
     colorInputText: '#ffffff',
@@ -47,3 +47,4 @@ createRoot(document.getElementById('root')).render(
     </BrowserRouter>
   )
 )
+//fix layout
