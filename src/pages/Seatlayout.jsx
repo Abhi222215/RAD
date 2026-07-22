@@ -97,6 +97,8 @@ const Seatlayout = () => {
     rows: group.rows.map((row) => ({ row, seats: buildRowSeats(row, 9) })),
   }))
 
+// This component renders a button for each seat in the layout, indicating its selection and occupancy status.
+
   const SeatButton = ({ seatId }) => {
     const selected = isSeatSelected(seatId)
     const occupied = isSeatOccupied(seatId)
