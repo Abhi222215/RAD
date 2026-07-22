@@ -32,6 +32,7 @@ const Dashboard = () => {
             <li>Silent Harbor — 11:00 PM</li>
           </ul>
         </div>
+        // Quick Actions
         <div style={cardStyle}>
           <div style={{ fontSize: '10px', letterSpacing: '2px', textTransform: 'uppercase', color: '#a0a8bc', marginBottom: '10px' }}>Quick Actions</div>
           <ul style={{ margin: 0, paddingLeft: '18px', color: '#f4f4f8', lineHeight: 1.8 }}>
