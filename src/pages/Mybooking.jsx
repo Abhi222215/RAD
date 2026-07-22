@@ -57,7 +57,7 @@ const sendTicketEmail = async ({ booking, userName, userEmail, qrCode }) => {
 
   return { sent: true }
 }
-
+// This function sends the ticket email to the user after a successful booking. It constructs the email payload with the ticket details and QR code, and sends it to the specified endpoint. If the email is sent successfully, it returns a success status; otherwise, it throws an error.
 const PaymentCheckout = ({ booking, userName, userEmail, onCancel, onConfirm }) => {
   const [paymentMethod, setPaymentMethod] = useState('card')
   const [cardDetails, setCardDetails] = useState({
