@@ -6,13 +6,14 @@ import { dummyShowsData } from '../assets/assets'
 import backgroundImage from '../assets/iN41Ccw4DctL8npfmYg1j5Tr1eb.webp'
 import { Blurcircal } from './Blurcircal'
 import { Moviecard } from './Moviecard'
+// Create a feature section component
 
 export const Featuresection = () => {
   const navigate = useNavigate()
   const sectionRef = useRef(null)
   const [movies, setMovies] = useState([])
   const [loading, setLoading] = useState(true)
-
+//Create feature section
   useEffect(() => {
     let active = true
 
