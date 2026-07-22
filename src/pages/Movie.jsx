@@ -5,6 +5,7 @@ import backgroundImage from '../assets/iN41Ccw4DctL8npfmYg1j5Tr1eb.webp'
 import { Moviecard } from '../component/Moviecard'
 import { Blurcircal } from '../component/Blurcircal'
 
+// This component displays a list of movies available for specific dates. Users can select a date to view the movies showing on that day.
 export const Movie = () => {
   const [movies, setMovies] = useState([])
   const [showtimesByDate, setShowtimesByDate] = useState({}) // { '2026-06-20': [{movieId, ...}] }
@@ -146,5 +147,4 @@ export const Movie = () => {
   )
 }
 
-//hnsaka
 //Abhishek
