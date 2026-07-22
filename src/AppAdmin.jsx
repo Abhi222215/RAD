@@ -31,6 +31,7 @@ const AppAdmin = ({ hasClerkAuth = false }) => {
         <Route path="*" element={<Navigate to="/admin/console" replace />} />
       </Routes>
     </>
+    // Configure admin routing
   )
 }
 
