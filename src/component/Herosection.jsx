@@ -35,6 +35,7 @@ export default function HeroSection () {
             <span>3h 18m</span>
           </div>
         </div>
+        //featured movie content
 
         <p className="hero-reveal hero-reveal-3 max-w-md text-gray-300 ">
           In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of 
