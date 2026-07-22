@@ -4,12 +4,13 @@
 
 :root{
     --color-primary: #F84565;
-    --color-primary-dull: #D63854;
+    --color-primary-dull: #d12e4c;
 }
 
 html{
     scroll-behavior: smooth;
 }
+/* Add global styles for the application */
 
 *{
    font-family: 'Outfit', sans-serif;
