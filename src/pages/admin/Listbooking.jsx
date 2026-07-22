@@ -30,6 +30,7 @@ export default function ListBookings() {
             <span>{booking.seats}</span>
             <span style={{ color: booking.status === 'Confirmed' ? '#4ade80' : '#fbbf24' }}>{booking.status}</span>
           </div>
+          // Map through the bookings array and display each booking in a row with its details
         ))}
       </div>
     </div>
