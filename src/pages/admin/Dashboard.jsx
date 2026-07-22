@@ -22,6 +22,7 @@ const Dashboard = () => {
         <div style={cardStyle}><div style={{ color: '#a0a8bc', fontSize: '11px' }}>Active Shows</div><div style={{ fontSize: '28px', color: '#f4f4f8', marginTop: '8px' }}>12</div></div>
         <div style={cardStyle}><div style={{ color: '#a0a8bc', fontSize: '11px' }}>Pending Orders</div><div style={{ fontSize: '28px', color: '#f4f4f8', marginTop: '8px' }}>7</div></div>
       </div>
+      // Quick Stats cards for revenue
 
       <div style={{ display: 'grid', gap: '14px', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))' }}>
         <div style={cardStyle}>
