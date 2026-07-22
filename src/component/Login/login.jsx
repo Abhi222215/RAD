@@ -18,6 +18,7 @@ const Login = ({ hasClerkAuth = false }) => {
 
   return <ClerkLoginControls />
 }
+// This component handles the login state and displays either the login button or the user menu.
 
 const ClerkLoginControls = () => {
   const { signOut } = useClerk()
@@ -82,6 +83,8 @@ const ClerkLoginControls = () => {
       </div>
     )
   }
+
+  // If the user is not signed in, show the login button and modal
 
   return (
     <>
