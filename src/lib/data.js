@@ -209,6 +209,7 @@ export const createBooking = async ({
 
   return booking
 }
+// Fetch a customer's bookings (with joined showtime + movie info)
 
 // Fetch a customer's bookings (with joined showtime + movie info)
 export const fetchBookingsForCustomer = async (customerId) => {
