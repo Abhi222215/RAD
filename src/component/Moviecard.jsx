@@ -11,6 +11,7 @@ export const Moviecard = ({ Movie, className = '', style, ...props }) => {
     navigate(`/movie/${movieId}`)
     window.scrollTo(0, 0)
   }
+  //Add blur visual effects
 
   return (
     <div

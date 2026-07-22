@@ -1,7 +1,7 @@
 import { ArrowRight, Calendar, Clock } from 'lucide-react'
 import backgroundImage from '../assets/iN41Ccw4DctL8npfmYg1j5Tr1eb.webp'
 import { useNavigate } from 'react-router-dom'
-
+//Create the landing page hero section
 
 export default function HeroSection () {
 
@@ -29,25 +29,29 @@ export default function HeroSection () {
             <Calendar className="h-4.5 w-4.5" />
             <span>2025</span>
           </div>
+          //Optimize hero component
 
           <div className="flex items-center gap-2">
             <Clock className="h-4.5 w-4.5" />
             <span>3h 18m</span>
           </div>
         </div>
+        //featured movie content
 
         <p className="hero-reveal hero-reveal-3 max-w-md text-gray-300 ">
           In the wake of the devastating war against the RDA and the loss of their eldest son, Jake Sully and Neytiri face a new threat on Pandora: the Ash People, a violent and power-hungry Na'vi tribe led by the ruthless Varang. Jake's family must fight for their survival and the future of 
           Pandora in a conflict that pushes them to their emotional and physical limits.
         </p>
+        //Improve hero responsiveness
 
         <button
           onClick={() => navigate('/movie')}
           className="hero-reveal hero-reveal-4 flex items-center gap-1 rounded-full bg-red-500 px-6 py-3 text-sm font-medium text-white transition hover:bg-red-600 cursor-pointer"
         >
-          Explore Movies
+          Explore Movie
           <ArrowRight className="h-5 w-5" />
         </button>
+        // Add a button to navigate to the movie page
       </div>
     </section>
   )

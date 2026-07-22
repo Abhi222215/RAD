@@ -2,7 +2,10 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
+
 // https://vite.dev/config/
+// Refactor admin structure
+
 export default defineConfig({
   cacheDir: `.vite-cache-admin/${process.pid}`,
   plugins: [react(), tailwindcss()],
@@ -12,3 +15,5 @@ export default defineConfig({
   },
   root: 'admin-server',
 })
+
+//Refactor admin structure

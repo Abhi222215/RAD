@@ -7,7 +7,7 @@ import './index.css'
 const clerkPublishableKey = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY
 const clerkAppearance = {
   variables: {
-    colorPrimary: '#F84565',
+    colorPrimary: '#fb3d60',
     colorBackground: '#08080a',
     colorInputBackground: '#111114',
     colorInputText: '#ffffff',
@@ -15,6 +15,7 @@ const clerkAppearance = {
     colorTextSecondary: 'rgba(255,255,255,0.68)',
     borderRadius: '10px',
     fontFamily: 'Outfit, sans-serif',
+    // Add more variables as needed
   },
   elements: {
     modalBackdrop: 'backdrop-blur-sm bg-black/75',
@@ -40,6 +41,7 @@ createRoot(document.getElementById('root')).render(
         <AppAdmin hasClerkAuth />
       </BrowserRouter>
     </ClerkProvider>
+    // Configure admin routing with Clerk authentication
   ) : (
     <BrowserRouter>
       <AppAdmin />

@@ -10,6 +10,7 @@ const pageNames = {
   '/admin/listbookings': 'List Bookings',
   '/admin/seatorder': 'Seat Orders',
 }
+// AdminNavbar component
 
 const AdminNavbar = () => {
   const { pathname } = useLocation()
@@ -50,7 +51,7 @@ const AdminNavbar = () => {
         color: '#f4f4f8',
         flexShrink: 0,
       }}>
-        FLICK<span style={{ color: '#e63b60' }}>SEAT</span>
+        FLICK<span style={{ color: '#e63c60' }}>SEAT</span>
       </span>
 
       {/* Separator */}

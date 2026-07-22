@@ -5,7 +5,7 @@ import { assets, dummyShowsData } from '../assets/assets'
 import { fetchMovies } from '../lib/data'
 import Login from './Login/login.jsx'
 
-//add nav links
+//add navbar links
 
 const Navbar = ({ hasClerkAuth = false }) => {
   const navigate = useNavigate()
@@ -102,7 +102,7 @@ md:border border-gray-300/20 overflow-hidden transition-[width] duration-300 ${i
     to="/releases"
     className="px-2 transition hover:text-[#e63b60]"
   >
-    Releases
+    NewReleases
   </Link>
 
   <Link
@@ -110,7 +110,7 @@ md:border border-gray-300/20 overflow-hidden transition-[width] duration-300 ${i
     to="/favorite"
     className="px-2 transition hover:text-[#e63b60]"
   >
-    Favorite
+    Favorites
   </Link>
 </div>
         <div className='w-72 max-w-[80vw] md:hidden'>
@@ -169,6 +169,7 @@ md:border border-gray-300/20 overflow-hidden transition-[width] duration-300 ${i
                 placeholder='Search movies'
                 className='w-full bg-transparent text-sm text-white outline-none placeholder:text-gray-400'
               />
+              // Develop responsive navigation
               <button
                 type='button'
                 onClick={() => {

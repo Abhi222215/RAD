@@ -10,6 +10,7 @@ import { Releases } from './pages/Releases.jsx'
 import { Toaster } from 'react-hot-toast'
 import Home from './pages/home.jsx'
 import AdminConsole from './pages/admin/AdminConsole.jsx'
+//Configure the React application
 
 const App = ({ hasClerkAuth = false }) => {
   return (
