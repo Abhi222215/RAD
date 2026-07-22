@@ -8,6 +8,7 @@ import { fetchMovieById, fetchDateTimeForMovie, fetchShowtimeById, ensureCustome
 import { supabase } from '../lib/supabase';
 import isoTimeFormat from '../component/lib/isoTimeFormat';
 
+// This component displays the seat layout for a selected movie showtime, allowing users to select available seats and proceed to checkout. It fetches the showtime details, including occupied seats, and handles user authentication for booking.
 const Seatlayout = () => {
   const maxSeatsPerBooking = 5;
 
