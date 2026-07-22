@@ -21,6 +21,7 @@ const buildTicketData = ({ booking, userName, userEmail }) => ({
   seats: getSeatNumbers(booking),
   amount: `LKR ${booking.grand_total}`,
 })
+// This function builds the ticket data object that will be used for generating the QR code and sending the ticket email. It includes details such as the ticket ID, booking ID, user name, email, movie title, show date and time, selected seats, and total amount.
 
 const sendTicketEmail = async ({ booking, userName, userEmail, qrCode }) => {
   const endpoint = import.meta.env.VITE_TICKET_EMAIL_ENDPOINT
