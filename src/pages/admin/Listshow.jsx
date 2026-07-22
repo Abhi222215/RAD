@@ -5,6 +5,7 @@ const shows = [
   { title: 'Neon Skyline', date: '2026-06-27', time: '21:15', seats: '58/90' },
   { title: 'Silent Harbor', date: '2026-06-28', time: '22:00', seats: '81/90' },
 ]
+// ListShows component that displays a list of upcoming showtimes with their respective dates, times, and seat availability.
 
 export default function ListShows() {
   return (
