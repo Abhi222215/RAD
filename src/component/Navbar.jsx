@@ -5,7 +5,7 @@ import { assets, dummyShowsData } from '../assets/assets'
 import { fetchMovies } from '../lib/data'
 import Login from './Login/login.jsx'
 
-//add nav links
+//add navbar links
 
 const Navbar = ({ hasClerkAuth = false }) => {
   const navigate = useNavigate()
