@@ -15,6 +15,7 @@ export default function ListBookings() {
         <h2 style={{ margin: 0, fontSize: '28px' }}>All Bookings</h2>
         <p style={{ color: '#a0a8bc', marginTop: '8px' }}>Review bookings and keep track of the latest ticket purchases.</p>
       </div>
+      // Booking list container with a header row and individual booking rows
 
       <div style={{ background: 'rgba(255,255,255,.03)', border: '1px solid rgba(255,255,255,.08)', borderRadius: '14px', overflow: 'hidden' }}>
         <div style={{ display: 'grid', gridTemplateColumns: '1.5fr 1.2fr 0.7fr 1fr', gap: '12px', padding: '14px 16px', background: 'rgba(255,255,255,.04)', color: '#a0a8bc', fontSize: '11px', textTransform: 'uppercase', letterSpacing: '1.5px' }}>
