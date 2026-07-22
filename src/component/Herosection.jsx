@@ -29,6 +29,7 @@ export default function HeroSection () {
             <Calendar className="h-4.5 w-4.5" />
             <span>2025</span>
           </div>
+          //Optimize hero component
 
           <div className="flex items-center gap-2">
             <Clock className="h-4.5 w-4.5" />
