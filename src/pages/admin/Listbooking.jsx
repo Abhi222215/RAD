@@ -5,6 +5,7 @@ const bookings = [
   { customer: 'Nimal', movie: 'Neon Skyline', seats: '4', status: 'Pending' },
   { customer: 'Sahan', movie: 'Silent Harbor', seats: '3', status: 'Confirmed' },
 ]
+// ListBookings component that displays a list of all bookings with customer names, movie titles, number of seats booked, and booking status.
 
 export default function ListBookings() {
   return (
