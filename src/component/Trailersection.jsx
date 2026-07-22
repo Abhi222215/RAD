@@ -1,5 +1,6 @@
 import { dummyTrailers } from '../assets/assets'
 import { useMemo, useState } from 'react'
+// Implement trailer section
 
 export const Trailersection = () => {
   const [activeIndex, setActiveIndex] = useState(0)
@@ -10,6 +11,9 @@ export const Trailersection = () => {
   const embedUrl = useMemo(() => {
     const raw = activeTrailer?.videoUrl
     if (!raw) return null
+    
+
+
 
     try {
       const url = new URL(raw)
@@ -36,6 +40,7 @@ export const Trailersection = () => {
     setActiveIndex(index)
     setIsPlaying(false)
   }
+  
 
   return (
     <section className='px-6 pb-20 md:px-16 lg:px-36'>
@@ -103,3 +108,5 @@ export const Trailersection = () => {
     </section>
   )
 }
+
+//Develop reusable movie card
