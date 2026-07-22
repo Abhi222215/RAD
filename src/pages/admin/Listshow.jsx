@@ -15,6 +15,7 @@ export default function ListShows() {
         <h2 style={{ margin: 0, fontSize: '28px' }}>Showtime Management</h2>
         <p style={{ color: '#a0a8bc', marginTop: '8px' }}>A quick view of the upcoming screenings and seat availability.</p>
       </div>
+      // Show list container with a header row and individual show rows
 
       <div style={{ background: 'rgba(255,255,255,.03)', border: '1px solid rgba(255,255,255,.08)', borderRadius: '14px', overflow: 'hidden' }}>
         <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr 1fr 1fr', gap: '12px', padding: '14px 16px', background: 'rgba(255,255,255,.04)', color: '#a0a8bc', fontSize: '11px', textTransform: 'uppercase', letterSpacing: '1.5px' }}>
@@ -35,3 +36,4 @@ export default function ListShows() {
     </div>
   )
 }
+//Refactor movie management
