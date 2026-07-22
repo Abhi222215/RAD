@@ -18,6 +18,7 @@ const PageLoader = ({ title = 'Loading…', subtitle }) => {
     </div>
   )
 }
+
 // This component displays the details of a specific movie, including its title, poster, overview, cast, and available showtimes. It fetches the movie data based on the ID from the URL parameters and handles loading and error states. Users can also view recommended movies and navigate to their details.
 export const Moviedetails = () => {
    const {id} = useParams();
@@ -59,6 +60,7 @@ export const Moviedetails = () => {
       setStatus('notfound');
     }
    }
+   
 
     useEffect(() => {
       const onOnline = () => setIsOnline(true)
@@ -192,4 +194,6 @@ export const Moviedetails = () => {
     </div>
   ) : null
 }
+// This component displays the details of a specific movie, including its title, poster, overview, cast, and available showtimes. It fetches the movie data based on the ID from the URL parameters and handles loading and error states. Users can also view recommended movies and navigate to their details.
+
 //Abhishek
