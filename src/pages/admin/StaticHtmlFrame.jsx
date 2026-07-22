@@ -9,5 +9,6 @@ export default function StaticHtmlFrame({ title, html }) {
         style={{ border: 'none', width: '100%', height: '100%', display: 'block' }}
       />
     </div>
+    // StaticHtmlFrame component that renders an iframe with the provided title and HTML content, filling the available space while maintaining a fixed height and width.
   )
 }
