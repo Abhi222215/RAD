@@ -41,6 +41,7 @@ createRoot(document.getElementById('root')).render(
         <AppAdmin hasClerkAuth />
       </BrowserRouter>
     </ClerkProvider>
+    // Configure admin routing with Clerk authentication
   ) : (
     <BrowserRouter>
       <AppAdmin />
