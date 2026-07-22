@@ -84,6 +84,8 @@ const ClerkLoginControls = () => {
     )
   }
 
+  // If the user is not signed in, show the login button and modal
+
   return (
     <>
       <button
