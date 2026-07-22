@@ -24,6 +24,7 @@ export default function ListBookings() {
           <span>Seats</span>
           <span>Status</span>
         </div>
+        // Map through the bookings array and display each booking in a row with its details
         {bookings.map((booking) => (
           <div key={booking.customer} style={{ display: 'grid', gridTemplateColumns: '1.5fr 1.2fr 0.7fr 1fr', gap: '12px', padding: '14px 16px', borderTop: '1px solid rgba(255,255,255,.06)', color: '#f4f4f8' }}>
             <span>{booking.customer}</span>
