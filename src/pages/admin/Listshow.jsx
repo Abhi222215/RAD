@@ -5,6 +5,7 @@ const shows = [
   { title: 'Neon Skyline', date: '2026-06-27', time: '21:15', seats: '58/90' },
   { title: 'Silent Harbor', date: '2026-06-28', time: '22:00', seats: '81/90' },
 ]
+// ListShows component that displays a list of upcoming showtimes with their respective dates, times, and seat availability.
 
 export default function ListShows() {
   return (
@@ -14,6 +15,7 @@ export default function ListShows() {
         <h2 style={{ margin: 0, fontSize: '28px' }}>Showtime Management</h2>
         <p style={{ color: '#a0a8bc', marginTop: '8px' }}>A quick view of the upcoming screenings and seat availability.</p>
       </div>
+      // Show list container with a header row and individual show rows
 
       <div style={{ background: 'rgba(255,255,255,.03)', border: '1px solid rgba(255,255,255,.08)', borderRadius: '14px', overflow: 'hidden' }}>
         <div style={{ display: 'grid', gridTemplateColumns: '2fr 1fr 1fr 1fr', gap: '12px', padding: '14px 16px', background: 'rgba(255,255,255,.04)', color: '#a0a8bc', fontSize: '11px', textTransform: 'uppercase', letterSpacing: '1.5px' }}>
@@ -22,6 +24,7 @@ export default function ListShows() {
           <span>Time</span>
           <span>Seats</span>
         </div>
+        // Map through the shows array and display each show in a row with its details
         {shows.map((show) => (
           <div key={show.title} style={{ display: 'grid', gridTemplateColumns: '2fr 1fr 1fr 1fr', gap: '12px', padding: '14px 16px', borderTop: '1px solid rgba(255,255,255,.06)', color: '#f4f4f8' }}>
             <span>{show.title}</span>
@@ -34,3 +37,4 @@ export default function ListShows() {
     </div>
   )
 }
+//Refactor movie management

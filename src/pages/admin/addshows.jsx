@@ -25,5 +25,6 @@ export default function AddShows() {
         </div>
       </div>
     </div>
+    // AddShows component that provides a form for adding new showtimes, including movie selection, date, and time inputs.
   )
 }
