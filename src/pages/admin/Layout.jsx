@@ -12,6 +12,7 @@ const Layout = () => {
       fontFamily: "'DM Sans', sans-serif",
       fontSize: '13px',
     }}>
+      // Admin sidebar and navbar components
       <Adminsidebar />
       <AdminNavbar />
       <main style={{
