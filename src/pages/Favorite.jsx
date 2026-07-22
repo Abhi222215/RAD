@@ -3,6 +3,7 @@ import { fetchMovies } from '../lib/data'
 import { Moviecard } from '../component/Moviecard'
 import { Blurcircal } from '../component/Blurcircal'
 
+// This component displays a list of favorite movies. It fetches the movie data from the backend and handles loading states. If there are no favorite movies, it shows a message indicating that no movies are available.
 export const Favorite = () => {
   const [movies, setMovies] = useState([])
   const [loading, setLoading] = useState(true)
