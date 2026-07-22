@@ -133,6 +133,8 @@ export const Releases = () => {
     )
   }
 
+  // This component displays a list of movie releases, including a featured release and a lineup of available movies. It fetches data from the backend and handles loading states, as well as scroll reveal animations for the content.     
+
   return (
     <main ref={pageRef} className='relative min-h-screen overflow-hidden px-6 pb-24 pt-32 md:px-16 lg:px-36'>
       <div className='pointer-events-none absolute inset-x-[-10%] top-0 h-[640px] opacity-20 blur-2xl'>
