@@ -1,4 +1,6 @@
+
 import { createClient } from '@supabase/supabase-js'
+// Supabase client configuration
 
 // Same Supabase project used by the Admin Console (index.html)
 const SB_URL = import.meta.env.VITE_SUPABASE_URL || 'https://ywqxavamlhgdwzfhlreo.supabase.co'
