@@ -1,6 +1,6 @@
 import React from 'react'
 import { assets } from '../assets/assets'
-
+// Footer component
 
 const Footer = () => {
     return (
