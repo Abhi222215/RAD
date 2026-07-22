@@ -100,6 +100,8 @@ const ClerkLoginControls = () => {
   )
 }
 
+// This component renders the login modal with the Clerk SignIn component.  
+
 const LoginModal = ({ onClose }) => {
   return (
     <div className='login-modal-backdrop'>
