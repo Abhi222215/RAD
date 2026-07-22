@@ -16,6 +16,7 @@ const navLinks = [
   { name: 'List Bookings', path: '/admin/listbookings', icon: BookOpenCheck },
   { name: 'Seat Orders', path: '/admin/seatorder', icon: ShoppingBag },
 ]
+// Adminsidebar component
 
 const Adminsidebar = () => {
   const { pathname } = useLocation()
@@ -43,7 +44,7 @@ const Adminsidebar = () => {
       <NavLink to="/admin/console" style={{
         width: '32px',
         height: '32px',
-        border: '1px solid #e63b60',
+        border: '1px solid #ea3a60',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
@@ -123,6 +124,7 @@ const Adminsidebar = () => {
                 background: '#e63b60',
                 borderRadius: '0 2px 2px 0',
               }} />
+              
             )}
             <Icon size={17} strokeWidth={1.8} />
             {/* Tooltip */}
@@ -145,6 +147,7 @@ const Adminsidebar = () => {
         )
       })}
     </aside>
+    // Configure admin sidebar with navigation links and tooltips
   )
 }
 
