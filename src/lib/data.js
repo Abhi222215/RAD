@@ -230,4 +230,4 @@ export const fetchBookingsForCustomer = async (customerId) => {
   if (error) throw error
   return data || []
 }
-//Abhishek
+// Fetch a single booking by its ID (with joined showtime + movie info)
