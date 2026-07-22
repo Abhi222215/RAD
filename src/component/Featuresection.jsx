@@ -65,7 +65,10 @@ export const Featuresection = () => {
           <img src={backgroundImage} alt='' className='h-full w-full object-cover object-center' />
           <div className='absolute inset-0 bg-gradient-to-b from-black/30 via-black/55 to-black' />
         </div>
+        // Create a feature section with a background image
+
         <Blurcircal bottom='0' right='-80px' />
+        //Implement trailer section
 
         <div className='scroll-reveal relative flex items-center justify-between' data-scroll-reveal>
           <div className='pointer-events-none absolute -right-16 -top-20 h-48 w-56 rounded-full bg-[radial-gradient(circle,rgba(75,7,12,0.58)_0%,rgba(45,3,8,0.34)_42%,rgba(0,0,0,0)_72%)] blur-2xl md:-right-24 md:h-64 md:w-72' />
