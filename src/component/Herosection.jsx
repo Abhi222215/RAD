@@ -46,9 +46,10 @@ export default function HeroSection () {
           onClick={() => navigate('/movie')}
           className="hero-reveal hero-reveal-4 flex items-center gap-1 rounded-full bg-red-500 px-6 py-3 text-sm font-medium text-white transition hover:bg-red-600 cursor-pointer"
         >
-          Explore Movies
+          Explore Movie
           <ArrowRight className="h-5 w-5" />
         </button>
+        // Add a button to navigate to the movie page
       </div>
     </section>
   )
