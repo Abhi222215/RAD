@@ -2,7 +2,7 @@ import React from 'react'
 import { Outlet } from 'react-router-dom'
 import AdminNavbar from '../../component/Admin/AdminNavbar.jsx'
 import Adminsidebar from '../../component/Admin/Adminsidebar.jsx'
-
+// Layout component for admin pages
 const Layout = () => {
   return (
     <div style={{
